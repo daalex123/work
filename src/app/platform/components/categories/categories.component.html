@@ -1,0 +1,36 @@
+<p>
+  Products Page
+</p>
+<!-- <ul>
+  <li *ngFor="let category of Categories">
+  <h2>{{category.name}}</h2>
+  </li>
+  </ul> -->
+<div class="row">
+  <div class="col-4">
+    <div class="form-group pre-l">
+      <label>Categories</label>
+      <ng-select
+      placeholder="Select a category"
+        [items]="Categories"
+        bindLabel="name"
+        bindValue="id"
+        class="custom"
+        (change)="getProductByCatecory($event)"
+      ></ng-select>
+    </div>
+  </div>
+
+  <div class="col-4">
+    <div class="form-group pre-l">
+      <label>Products</label>
+      <ng-select
+      placeholder="Select a product"
+        [items]="selectedProduct"
+        bindLabel="name"
+        bindValue="prod_id"
+        class="custom"
+      ></ng-select>
+    </div>
+  </div>
+</div>

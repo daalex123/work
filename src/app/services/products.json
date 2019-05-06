@@ -1,0 +1,40 @@
+[{
+  "id": 1,
+  "prod_id": 1,
+  "name": "Land"
+  },
+  {
+  "id": 2,
+  "prod_id": 1,
+  "name": "House"
+  },
+  {
+  "id": 3,
+  "prod_id": 2,
+  "name": "Public"
+  },
+  {
+  "id": 4,
+  "prodid": 2,
+  "name": "Private"
+  },
+  {
+  "id": 5,
+  "prod_id": 3,
+  "name": "Hospital"
+  },
+  {
+  "id": 6,
+  "prod_id": 3,
+  "name": "Pharmacy"
+  },
+  {
+  "id": 7,
+  "prod_id": 4,
+  "name": "Bank"
+  },
+  {
+  "id": 8,
+  "prod_id": 5,
+  "name": "Group Clase"
+  }]
